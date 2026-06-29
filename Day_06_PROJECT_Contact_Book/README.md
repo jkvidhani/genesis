@@ -17,7 +17,14 @@ A command-line contact management system built in Python.
 
 ## ▶️ How to Run
 ```bash
-python contact_book.py
+python project.py
 ```
 
 ## 📁 Project Structure
+Day_06_Project_Contact_Book/
+├── project.py       # main application code
+├── contacts.txt     # stores contact data
+└── README.md        # project documentation
+
+## 👨‍💻 Author
+Jai | B.Tech CSE AI/ML | GLA University
