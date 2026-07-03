@@ -148,7 +148,7 @@ print(a)          # [0, 0, 3, 4, 5]
 b[1, :] = 0       # row 1 becomes all zeros
 ```
 
-### ✨np.where (Conditional replacement)
+### ➡️ np.where (Conditional replacement)
 ```python
 a = np.array([10, 25, 30, 45, 50])
 
