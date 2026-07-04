@@ -1,7 +1,7 @@
 # 🚀 Day 12 — Advanced NumPy
 
-## 📡 1. Broadcasting
-
+## 📡 1. Broadcasting 
+ 
 ```python
 import numpy as np
 
@@ -11,6 +11,18 @@ b = np.array([10, 20, 30])            # shape (3,)
 # b broadcasts across each row automatically
 a + b  
 # Output: [[11, 22, 33], [14, 25, 36]]
+```
+
+## Matrix Multiplication
+
+```python
+import numpy as np
+
+a = np.array([[1,2],[3,4]])
+b = np.array([[5,6],[7,8]])
+print(a @ b)  # matrix multiplication
+ 
+# Output: [[19 22], [43 50]]
 ```
 
 **Rule:** Shapes are compatible if dimensions are equal OR one of them is 1.
