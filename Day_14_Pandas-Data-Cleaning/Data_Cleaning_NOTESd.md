@@ -46,12 +46,19 @@ df["Age"] = df["Age"].astype(int)
 ## Your task — clean the Titanic dataset:
 
 1.Check null counts for all columns
+
 2.Drop Cabin column — too many nulls
+
 3.Fill Age nulls with median
+
 4.Fill Embarked nulls with most frequent value
+
 5.Verify no nulls remain with isnull().sum()
+
 6.Drop any duplicate rows
+
 7.Print shape before and after cleaning
+
 
 # ⚠️ Architectural Note: Programmatic Imputation
 
