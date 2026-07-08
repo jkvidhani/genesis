@@ -12,7 +12,7 @@ df.groupby("column")["target"].mean()
 df.groupby("column")["target"].agg(["mean", "min", "max"])
 ```
 **When to use:** When you want to compare a metric across different categories.
-Example: Average survival rate per gender, average fare per class.
+Example: Average survival rate per gender, average fare per class. 
 
 ---
 
